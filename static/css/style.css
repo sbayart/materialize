@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+.pin-top {
+  position: relative; }
+
+.pin-bottom {
+  position: relative; }
+
+.pinned {
+  position: fixed !important; }
+
+.nav-wrapper {
+  background-color: red; }
+  .nav-wrapper a {
+    color: black; }
+  .nav-wrapper .right {
+    text-align: center;
+    float: none !important; }
+    .nav-wrapper .right li {
+      float: none;
+      display: inline-block; }
+
+main {
+  flex: 1 0 auto; }
+
+/*# sourceMappingURL=style.css.map */
