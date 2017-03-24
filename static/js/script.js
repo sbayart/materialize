@@ -1,17 +1,19 @@
 $(document).ready(function() {
-    $('.target').pushpin({
-        top: 0,
-        bottom: 1000,
-        offset: 0
-    });
-    $('.pushpin-demo-nav').each(function() {
-        var $this = $(this);
-        var $target = $('#' + $(this).attr('data-target'));
-        $this.pushpin({
-            top: $target.offset().top,
-            bottom: $target.offset().top + $target.outerHeight() - $this.height()
-        });
-    });
+    // $('.target').pushpin({
+    //     top: 0,
+    //     bottom: 1000,
+    //     offset: 0
+    // });
+    // $('.pushpin-demo-nav').each(function() {
+    //     var $this = $(this);
+    //     var $target = $('#' + $(this).attr('data-target'));
+    //     $this.pushpin({
+    //         top: $target.offset().top,
+    //         bottom: $target.offset().top + $target.outerHeight() - $this.height()
+    //     });
+    // });
+    $('.slider').slider();
+
     $('.carousel').carousel();
     $(".button-collapse").sideNav();
     $('.chips').material_chip();
@@ -40,5 +42,5 @@ $(document).ready(function() {
         }
     });
       $('.parallax').parallax();
-        
+
 })

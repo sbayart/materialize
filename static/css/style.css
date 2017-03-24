@@ -6,18 +6,8 @@
     font-weight: bold;
     font-size: 1.5em; }
 
-main {
-  flex: 1 0 auto; }
-  main .block {
-    height: 100%; }
-    main .block .pin-top {
-      position: relative;
-      height: 100%; }
-    main .block .pin-bottom {
-      position: relative;
-      height: 100%; }
-    main .block .pinned {
-      position: fixed !important;
-      height: 100%; }
+main .section > div:nth-child(1) {
+  width: 100%;
+  margin: auto; }
 
 /*# sourceMappingURL=style.css.map */

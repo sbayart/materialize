@@ -29,22 +29,8 @@
 }
 
 main {
-    flex: 1 0 auto;
-    .block {
-        height: 100%;
-        .pin-top {
-            position: relative;
-            height: 100%;
-        }
-        // Class for when element is below threshold
-        .pin-bottom {
-            position: relative;
-            height: 100%;
-        }
-        // Class for when element is pinned
-        .pinned {
-            position: fixed !important;
-            height: 100%;
-        }
+    .section > div:nth-child(1) {
+        width: 100%;
+        margin: auto;
     }
 }

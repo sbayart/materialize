@@ -13,88 +13,90 @@
 </head>
 
 <body>
-    <header>
-        <nav class="nav-extended">
-            <div class="nav-wrapper">
-                <a href="#!" class="brand-logo"><img src="static/images/apple-touch-icon-152x152.png" alt="logo"></a>
-                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="index.html">Slider et SideNav</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="collapsible.html">JavaScript</a></li>
-                </ul>
-                <ul class="side-nav" id="mobile-demo">
-                    <li><a href="index.html">Slider et SideNav</a></li>
-                    <li><a>A second link</a></li>
-                    <li><a>A third link</a></li>
-                </ul>
+    <!-- <div class="container"> -->
+
+        <header>
+            <nav class="nav-extended">
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo"><img src="static/images/apple-touch-icon-152x152.png" alt="logo"></a>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="Presentation.html">Home</a></li>
+                        <li><a href="sliderFullscreen.html">Slider Full Screen</a></li>
+                        <li><a href="slider.html">Sliders et Articles</a></li>
+                    </ul>
+                    <ul class="side-nav" id="mobile-demo">
+                        <li><a href="Presentation.html">Home</a></li>
+                        <li><a href="sliderFullscreen.html">Slider Full Screen</a></li>
+                        <li><a href="slider.html">Sliders et Articles</a></li>
+                    </ul>
+                </div>
+                <div class="nav-content">
+                    <span class="nav-title">Materalize</span>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="parallax-container">
+                <div class="parallax"><img src="static/images/hill-2165759_1280.jpg"></div>
             </div>
-            <div class="nav-content">
-                <span class="nav-title">Materalize</span>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div class="parallax-container">
-            <div class="parallax"><img src="static/images/hill-2165759_1280.jpg"></div>
-        </div>
-        <div class="section white">
-            <div class="row container">
-                <ul class="collapsible popout" data-collapsible="accordion">
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">description</i>Présentation</div>
-                        <div class="collapsible-body"><span>Créé et conçu par Google, le Material Design est un langage de conception qui combine les principes classiques d'un design réussi ainsi que l'innovation et la technologie. le Material Design un design destiné dans un premier temps aux applications mobiles avant d’être étendu à l’ensemble de ses applications. C'est un ensemble de règles s’appliquant à l’interface graphique des logiciels et des applications. Il est notamment utilisé dans la version 5,0 du système d’exploitation Android.
+            <div class="row">
+                <div class="section white col m12">
+                    <div class="row container">
+                        <ul class="collapsible popout" data-collapsible="accordion">
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons">description</i>Présentation</div>
+                                <div class="collapsible-body"><span>Créé et conçu par Google, le Material Design est un langage de conception qui combine les principes classiques d'un design réussi ainsi que l'innovation et la technologie. le Material Design un design destiné dans un premier temps aux applications mobiles avant d’être étendu à l’ensemble de ses applications. C'est un ensemble de règles s’appliquant à l’interface graphique des logiciels et des applications. Il est notamment utilisé dans la version 5,0 du système d’exploitation Android.
                 Le but de Google est de développer une technique de conception pour une expérience utilisateur unifiée au travers de leurs produits sur n'importe quelle plateforme.</span></div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">movie</i>Petite vidéo pour se détendre</div>
-                        <div class="collapsible-body"><span><iframe width="560" height="315" src="https://www.youtube.com/embed/Q8TXgCzxEnw" frameborder="0" allowfullscreen></iframe></span></div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">thumbs_up_down</i>Comparaisons</div>
-                        <div class="collapsible-body"><span>De nombreuses similarités par rapport à Bootstrap : construction avec une grille en row et en colonne (avec une rédaction légèrement différente). Encore beaucoup de div...
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons">movie</i>Petite vidéo pour se détendre</div>
+                                <div class="collapsible-body"><span><iframe width="560" height="315" src="https://www.youtube.com/embed/Q8TXgCzxEnw" frameborder="0" allowfullscreen></iframe></span></div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons">thumbs_up_down</i>Comparaisons</div>
+                                <div class="collapsible-body"><span>De nombreuses similarités par rapport à Bootstrap : construction avec une grille en row et en colonne (avec une rédaction légèrement différente). Encore beaucoup de div...
             Beaucoup de fonctionnalité très similaires : tableaux, icones, navbar, pagination, etc.
             En passant, la navbar est bien plus maléable que celle de Bootstrap, surtout au niveau des changements de couleurs.
             Nous avons trouvé l'utilisation globalement peut-être un peu plus "convivale" que Boostrap avec une prise en main relativement facile. Nous n'avons cependant pas su faire fonctionner quelques petits trucs...
                 Mais nous allons voir plein de choses nouvelles que nous avons réussi à faire fonctionner !</span></div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">done_all</i>Les trucs qu'on a aimé !</div>
-                        <div class="collapsible-body"><span>Le parallax (ici présent), les Sliders, les Chips, les Popouts (ici présent)</span></div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="parallax-container">
-            <div class="parallax"><img src="static/images/norway-2144926_1280.jpg"></div>
-        </div>
-    </main>
-    <footer class="page-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col m6 s12">
-                    <h5 class="white-text">Un super footer !</h5>
-                    <p class="grey-text text-lighten-4">mais avec pas beaucoup plus de fonctionnalités qu'avec Bootstrap</p>
-                </div>
-                <div class="col m6 s12">
-                    <h5 class="white-text">Des liens</h5>
-                    <ul>
-                        <li><a class="grey-text text-lighten-3" href="#!">Oui, un lien !</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Encore un !</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">zavez compris le concept...</a></li>
-                    </ul>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons">done_all</i>Les trucs qu'on a aimé !</div>
+                                <div class="collapsible-body"><span>Le parallax (ici présent), les Sliders, les Chips, les Popouts (ici présent)</span></div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="footer-copyright">
+            <div class="parallax-container">
+                <div class="parallax"><img src="static/images/norway-2144926_1280.jpg" alt="Pay"></div>
+            </div>
+        </main>
+        <footer class="page-footer">
             <div class="container">
-                © 2017 Copyright Text
+                <div class="row">
+                    <div class="col m6 s12">
+                        <h5 class="white-text">Un super footer !</h5>
+                        <p class="grey-text text-lighten-4">mais avec pas beaucoup plus de fonctionnalités qu'avec Bootstrap</p>
+                    </div>
+                    <div class="col m6 s12">
+                        <h5 class="white-text">Des liens</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="#!">Oui, un lien !</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Encore un !</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">zavez compris le concept...</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
-    </footer>
-
-    </div>
-
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2017 Copyright Text
+                </div>
+            </div>
+        </footer>
+    <!-- </div> -->
     <script src="static/external/bower_components/jquery/dist/jquery.min.js"></script>
     <script src="static/external/materialize/dist/js/materialize.min.js"></script>
     <script src="static/js/script.js"></script>
