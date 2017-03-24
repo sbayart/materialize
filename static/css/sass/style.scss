@@ -1,39 +1,50 @@
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-}
+// body {
+//     display: flex;
+//     min-height: 100vh;
+//     flex-direction: column;
+//     //  height: 100%;
+// }
 // Class for when element is above threshold
-  .pin-top {
-    position: relative;
-  }
 
-  // Class for when element is below threshold
-  .pin-bottom {
-    position: relative;
-  }
 
-  // Class for when element is pinned
-  .pinned {
-    position: fixed !important;
-  }
-    .nav-wrapper {
-        background-color: red;
+.nav-extended {
+    background-color: grey;
+    width: 100%;
 
-        a {
-            color: black;
+    a {
+        color: white;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+
+    // .right {
+    //     text-align: center;
+    //     float: none !important;
+    //
+    //     li {
+    //         float: none;
+    //         display: inline-block;
+    //     }
+    // }
+}
+
+main {
+    flex: 1 0 auto;
+    .block {
+        height: 100%;
+        .pin-top {
+            position: relative;
+            height: 100%;
         }
-
-        .right {
-            text-align: center;
-            float: none !important;
-
-            li {
-                float: none;
-                display: inline-block;
-            }
+        // Class for when element is below threshold
+        .pin-bottom {
+            position: relative;
+            height: 100%;
+        }
+        // Class for when element is pinned
+        .pinned {
+            position: fixed !important;
+            height: 100%;
         }
     }
-    main {
-        flex: 1 0 auto;
-    }
+}

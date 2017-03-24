@@ -1,29 +1,23 @@
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column; }
-
-.pin-top {
-  position: relative; }
-
-.pin-bottom {
-  position: relative; }
-
-.pinned {
-  position: fixed !important; }
-
-.nav-wrapper {
-  background-color: red; }
-  .nav-wrapper a {
-    color: black; }
-  .nav-wrapper .right {
-    text-align: center;
-    float: none !important; }
-    .nav-wrapper .right li {
-      float: none;
-      display: inline-block; }
+.nav-extended {
+  background-color: grey;
+  width: 100%; }
+  .nav-extended a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em; }
 
 main {
   flex: 1 0 auto; }
+  main .block {
+    height: 100%; }
+    main .block .pin-top {
+      position: relative;
+      height: 100%; }
+    main .block .pin-bottom {
+      position: relative;
+      height: 100%; }
+    main .block .pinned {
+      position: fixed !important;
+      height: 100%; }
 
 /*# sourceMappingURL=style.css.map */
